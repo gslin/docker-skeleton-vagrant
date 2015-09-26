@@ -7,8 +7,8 @@ main() {
     apt-get update
     apt-get -y install vim-nox
 
-    if [ -x local.sh ]; then
-        local.sh
+    if [ -x /vagrant/local.sh ]; then
+        /vagrant/local.sh
     fi
 }
 
